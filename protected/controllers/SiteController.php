@@ -72,7 +72,7 @@ class SiteController extends Controller
 		$this->render('contact',array('model'=>$model));
 	}
 
-	/**
+       	/**
 	 * Displays the login page
 	 */
 	public function actionLogin()

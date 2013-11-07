@@ -1,0 +1,108 @@
+2013/11/07 23:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=post
+---
+2013/11/07 23:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('Post')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=Post
+---
+2013/11/07 23:19:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('post')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('post')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=site/post
+---
+2013/11/07 23:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=user
+---
+2013/11/07 23:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=user/admin
+---
+2013/11/07 23:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=user
+---
+2013/11/07 23:21:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=user/admin
+---
+2013/11/07 23:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=user
+---
+2013/11/07 23:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=post
+---
+2013/11/07 23:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=index
+---
+2013/11/07 23:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "userform".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('userform')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('userform')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('site/userform')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=site/userform
+---
+2013/11/07 23:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "userform".' in C:\xampp\htdocs\YiiCookBook\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\YiiCookBook\framework\web\CController.php(270): CController->missingAction('userform')
+#1 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(282): CController->run('userform')
+#2 C:\xampp\htdocs\YiiCookBook\framework\web\CWebApplication.php(141): CWebApplication->runController('post/userform')
+#3 C:\xampp\htdocs\YiiCookBook\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\YiiCookBook\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/YiiCookBook/index.php?r=post/userform
+---
